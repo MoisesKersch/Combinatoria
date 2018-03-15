@@ -34,9 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Anagram.h" />
+		<Unit filename="include/Combination.h" />
 		<Unit filename="include/Permutation.h" />
 		<Unit filename="include/Repetition.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Anagram.cpp" />
+		<Unit filename="src/Combination.cpp" />
 		<Unit filename="src/Permutation.cpp" />
 		<Unit filename="src/Repetition.cpp" />
 		<Extensions>

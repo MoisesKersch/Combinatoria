@@ -1,26 +1,41 @@
 # depslib dependency file v1.0
-1521126390 source:c:\users\usuário\desktop\combinatoria\main.cpp
+1521138253 source:c:\users\usuário\desktop\combinatoria\main.cpp
 	<iostream>
 	<Permutation.h>
 	<Repetition.h>
+	<Anagram.h>
 
-1521127058 source:c:\users\usuário\desktop\combinatoria\src\repetition.cpp
+1521139032 source:c:\users\usuário\desktop\combinatoria\src\repetition.cpp
 	"Repetition.h"
 
-1521126552 c:\users\usuário\desktop\combinatoria\include\repetition.h
+1521139031 c:\users\usuário\desktop\combinatoria\include\repetition.h
 	<Permutation.h>
 	<vector>
 	<sstream>
 
-1521126512 c:\users\usuário\desktop\combinatoria\include\permutation.h
+1521139031 c:\users\usuário\desktop\combinatoria\include\permutation.h
 	<iostream>
 
-1521125432 source:c:\users\usuário\desktop\combinatoria\src\permutation.cpp
+1521139032 source:c:\users\usuário\desktop\combinatoria\src\permutation.cpp
 	"Permutation.h"
 
 1521126974 source:c:\users\usuário\desktop\combinatoria\src\combinatoric.cpp
 	"Combinatoric.h"
 
 1521126962 c:\users\usuário\desktop\combinatoria\include\combinatoric.h
+	<Permutation.h>
+
+1521139032 source:c:\users\usuário\desktop\combinatoria\src\combination.cpp
+	"Combination.h"
+
+1521139031 c:\users\usuário\desktop\combinatoria\include\combination.h
+
+1521139625 source:c:\users\usuário\desktop\combinatoria\src\anagram.cpp
+	"Anagram.h"
+
+1521139625 c:\users\usuário\desktop\combinatoria\include\anagram.h
+	<vector>
+	<iostream>
+	<algorithm>
 	<Permutation.h>
 
