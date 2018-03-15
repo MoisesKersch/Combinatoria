@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1521126390 source:c:\users\usuário\desktop\combinatoria\main.cpp
+	<iostream>
+	<Permutation.h>
+	<Repetition.h>
+
+1521126390 source:c:\users\usuário\desktop\combinatoria\src\repetition.cpp
+	"Repetition.h"
+
+1521126552 c:\users\usuário\desktop\combinatoria\include\repetition.h
+	<Permutation.h>
+	<vector>
+	<sstream>
+
+1521126512 c:\users\usuário\desktop\combinatoria\include\permutation.h
+	<iostream>
+
+1521125432 source:c:\users\usuário\desktop\combinatoria\src\permutation.cpp
+	"Permutation.h"
+
