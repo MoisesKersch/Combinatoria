@@ -4,7 +4,7 @@
 	<Permutation.h>
 	<Repetition.h>
 
-1521126390 source:c:\users\usuário\desktop\combinatoria\src\repetition.cpp
+1521127058 source:c:\users\usuário\desktop\combinatoria\src\repetition.cpp
 	"Repetition.h"
 
 1521126552 c:\users\usuário\desktop\combinatoria\include\repetition.h
@@ -17,4 +17,10 @@
 
 1521125432 source:c:\users\usuário\desktop\combinatoria\src\permutation.cpp
 	"Permutation.h"
+
+1521126974 source:c:\users\usuário\desktop\combinatoria\src\combinatoric.cpp
+	"Combinatoric.h"
+
+1521126962 c:\users\usuário\desktop\combinatoria\include\combinatoric.h
+	<Permutation.h>
 

@@ -24,7 +24,7 @@ long long Repetition::getRepetition()
 {
     long long tempt = 1;
 
-    for (int x=0; x<this->input.size(); x++)
+    for (unsigned int x=0; x<this->input.size(); x++)
     {
         tempt *= getFactorial(input.at(x));
     }
@@ -33,7 +33,7 @@ long long Repetition::getRepetition()
 
 void Repetition::print()
 {
-    for (int x=0; x<input.size(); x++)
+    for (unsigned int x=0; x<input.size(); x++)
         cout << input.at(x) << endl;
 }
 
