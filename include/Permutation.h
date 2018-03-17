@@ -9,7 +9,7 @@ class Permutation
 {
     int permutation;
 public:
-    Permutation(int);
+    void setPermutation(int);
     int getPermutation();
     long long getFactorial(int);
 };

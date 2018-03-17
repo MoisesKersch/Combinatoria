@@ -1,7 +1,8 @@
 #include "Anagram.h"
 
-Anagram::Anagram(string word) : Permutation(word.size())
+Anagram::Anagram(string word)
 {
+    setPermutation(word.size());
 	int repetitions = 1;
     transform(word.begin(), word.end(),word.begin(), ::toupper);
 

@@ -1,6 +1,6 @@
 #include "Permutation.h"
 
-Permutation::Permutation(int permutation)
+void Permutation::setPermutation(int permutation)
 {
     this->permutation = permutation;
 }

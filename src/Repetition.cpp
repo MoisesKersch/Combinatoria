@@ -1,6 +1,9 @@
 #include "Repetition.h"
 
-Repetition::Repetition(int permutation):Permutation(permutation){};
+Repetition::Repetition(int permutation)
+{
+    setPermutation(permutation);
+}
 
 bool Repetition::setRepetitions(string repetition)
 {

@@ -39,3 +39,44 @@
 	<algorithm>
 	<Permutation.h>
 
+1521248369 source:c:\users\usuario\desktop\combinatoria\main.cpp
+	<iostream>
+	<Permutation.h>
+	<Repetition.h>
+	<Anagram.h>
+	"Divisor.h"
+
+1521248614 c:\users\usuario\desktop\combinatoria\include\permutation.h
+	<iostream>
+
+1521247632 c:\users\usuario\desktop\combinatoria\include\repetition.h
+	<Permutation.h>
+	<vector>
+	<sstream>
+
+1521247632 c:\users\usuario\desktop\combinatoria\include\anagram.h
+	<vector>
+	<iostream>
+	<algorithm>
+	<Permutation.h>
+
+1521248668 source:c:\users\usuario\desktop\combinatoria\src\anagram.cpp
+	"Anagram.h"
+
+1521247632 source:c:\users\usuario\desktop\combinatoria\src\combination.cpp
+	"Combination.h"
+
+1521247632 c:\users\usuario\desktop\combinatoria\include\combination.h
+
+1521248581 source:c:\users\usuario\desktop\combinatoria\src\permutation.cpp
+	"Permutation.h"
+
+1521248704 source:c:\users\usuario\desktop\combinatoria\src\repetition.cpp
+	"Repetition.h"
+
+1521248737 source:c:\users\usuario\desktop\combinatoria\src\divisor.cpp
+	"Divisor.h"
+
+1521248627 c:\users\usuario\desktop\combinatoria\include\divisor.h
+	<Permutation.h>
+
