@@ -1,11 +1,12 @@
 #include "Combination.h"
 
-Combination::Combination()
+bool Combination::setCombination(int elementos, int agrupamento)
 {
-    //ctor
+    this->combination = getFactorial(elementos) / (getFactorial(agrupamento) * getFactorial(elementos - agrupamento));
 }
 
-Combination::~Combination()
+int Combination::getCombination()
 {
-    //dtor
+    return this->combination;
 }
+

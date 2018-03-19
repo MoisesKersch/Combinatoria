@@ -80,3 +80,44 @@
 1521248627 c:\users\usuario\desktop\combinatoria\include\divisor.h
 	<Permutation.h>
 
+1521416961 source:c:\users\marco\documents\github\combinatoria\main.cpp
+	<iostream>
+	<Permutation.h>
+	<Repetition.h>
+	<Anagram.h>
+	<Combination.h>
+	"Divisor.h"
+
+1521397601 c:\users\marco\documents\github\combinatoria\include\permutation.h
+	<iostream>
+
+1521143953 c:\users\marco\documents\github\combinatoria\include\repetition.h
+	<Permutation.h>
+	<vector>
+	<sstream>
+
+1521143953 c:\users\marco\documents\github\combinatoria\include\anagram.h
+	<vector>
+	<iostream>
+	<algorithm>
+	<Permutation.h>
+
+1521397601 c:\users\marco\documents\github\combinatoria\include\divisor.h
+	<Permutation.h>
+
+1521397601 source:c:\users\marco\documents\github\combinatoria\src\anagram.cpp
+	"Anagram.h"
+
+1521417075 source:c:\users\marco\documents\github\combinatoria\src\combination.cpp
+	"Combination.h"
+
+1521416961 c:\users\marco\documents\github\combinatoria\include\combination.h
+	<iostream>
+	<Permutation.h>
+
+1521397601 source:c:\users\marco\documents\github\combinatoria\src\permutation.cpp
+	"Permutation.h"
+
+1521397601 source:c:\users\marco\documents\github\combinatoria\src\repetition.cpp
+	"Repetition.h"
+
