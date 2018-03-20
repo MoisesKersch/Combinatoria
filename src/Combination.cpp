@@ -1,6 +1,6 @@
 #include "Combination.h"
 
-bool Combination::setCombination(int elementos, int agrupamento)
+void Combination::setCombination(int elementos, int agrupamento)
 {
     this->combination = getFactorial(elementos) / (getFactorial(agrupamento) * getFactorial(elementos - agrupamento));
 }

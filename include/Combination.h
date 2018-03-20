@@ -8,7 +8,7 @@ class Combination : public Permutation
 {
     int combination;
 public:
-    bool setCombination(int elementos, int agrupamento);
+    void setCombination(int elementos, int agrupamento);
     int getCombination();
 };
 
