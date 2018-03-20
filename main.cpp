@@ -5,6 +5,8 @@
 #include <Combination.h>
 #include <Divisor.h>
 #include <windows.h>
+#include <locale>
+#include <clocale>
 #include <conio.h>
 #define cls system ("cls");
 
@@ -12,6 +14,9 @@ using namespace std;
 
 int main()
 {
+
+    setenv("LANG","en_US.utf8",1);
+    setlocale(LC_ALL,"");
 
     int op;
     do

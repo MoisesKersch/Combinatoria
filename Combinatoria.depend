@@ -39,7 +39,7 @@
 	<algorithm>
 	<Permutation.h>
 
-1521566949 source:c:\users\usuario\desktop\combinatoria\main.cpp
+1521567276 source:c:\users\usuario\desktop\combinatoria\main.cpp
 	<iostream>
 	<Permutation.h>
 	<Repetition.h>
@@ -47,6 +47,8 @@
 	<Combination.h>
 	<Divisor.h>
 	<windows.h>
+	<locale>
+	<clocale>
 	<conio.h>
 
 1521564558 c:\users\usuario\desktop\combinatoria\include\permutation.h
