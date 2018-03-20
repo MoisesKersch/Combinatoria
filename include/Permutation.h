@@ -8,9 +8,12 @@ using namespace std;
 class Permutation
 {
     int permutation;
+    int arranjo;
 public:
     void setPermutation(int);
+    void setArranjo(int elementos, int agrupamento);
     int getPermutation();
+    int getArranjo();
     long long getFactorial(int);
 };
 

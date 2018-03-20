@@ -39,7 +39,7 @@
 	<algorithm>
 	<Permutation.h>
 
-1521567276 source:c:\users\usuario\desktop\combinatoria\main.cpp
+1521568056 source:c:\users\usuario\desktop\combinatoria\main.cpp
 	<iostream>
 	<Permutation.h>
 	<Repetition.h>
@@ -51,7 +51,7 @@
 	<clocale>
 	<conio.h>
 
-1521564558 c:\users\usuario\desktop\combinatoria\include\permutation.h
+1521567421 c:\users\usuario\desktop\combinatoria\include\permutation.h
 	<iostream>
 
 1521564558 c:\users\usuario\desktop\combinatoria\include\repetition.h
@@ -75,7 +75,7 @@
 	<iostream>
 	<Permutation.h>
 
-1521564558 source:c:\users\usuario\desktop\combinatoria\src\permutation.cpp
+1521567437 source:c:\users\usuario\desktop\combinatoria\src\permutation.cpp
 	"Permutation.h"
 
 1521564558 source:c:\users\usuario\desktop\combinatoria\src\repetition.cpp

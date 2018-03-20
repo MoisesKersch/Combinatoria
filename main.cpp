@@ -17,7 +17,8 @@ int main()
 
     setenv("LANG","en_US.utf8",1);
     setlocale(LC_ALL,"");
-
+    int value;
+    string input;
     int op;
     do
     {
@@ -33,28 +34,48 @@ int main()
 
         cout << "\n>>>>>>>>>>>>>>>>>>>>>>>>>>" << endl;
         cout << "Opção > ";
-        switch(scanf("%d", &op))
+        cin >> op;
+        switch(op)
         {
         case 1:
             Combination combination;
             int elementos, agrupamentos;
-            cout << "Informe o quantos elementos ela possui: ";
+            cout << "Informe o quantos elementos a combinação possui: ";
             cin >> elementos;
 
-            cout << "Informe o quantos agrupamentos ela possui: ";
+            cout << "Informe o quantos agrupamentos a combinação possui: ";
             cin >> agrupamentos;
             combination.setCombination(elementos, agrupamentos);
             cout << "Resultado: " << combination.getCombination() << endl; //marco fazer logica para que o valor da variavel "elemento serja maior que agrupamentos
             break;
         case 2:
+            Permutation permutation;
+            cout << "Informe o quantos elementos o arranjo possui: ";
+            cin >> elementos;
+
+            cout << "Informe o quantos agrupamentos o arranjo possui: ";
+            cin >> agrupamentos;
+            permutation.setArranjo(elementos, agrupamentos);
+            ///cout << "Resultado: " << permutation.getArranjo() << endl; funcão nao esta pronta
             break;
         case 3:
+            cout << "Digite um valor ";
+            cin >> value;
+            cout << "O Fatorial é: " << permutation.getFactorial(value) << endl;
             break;
         case 4:
+            cout << "Informe o valor de P " << endl;
+            cin >> value;
+            cout << "Informe o valor dos elementos repetidos " << endl;
+            cin >> input;
+            Repetition repetition(value);
+            repetition.setRepetitions(input);
+            cout << "Resultado: " << repetition.getRepetition() << endl;
             break;
         case 5:
             break;
         case 0:
+
             break;
         default:
             cout << "Entrada Inválida!" << endl;
