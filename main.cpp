@@ -30,6 +30,7 @@ int main()
         cout << "3 - Permutação simples" << endl;
         cout << "4 - Permutação com repetição" << endl;
         cout << "5 - Anagrama" << endl;
+        cout << "6 - Divisão de Fatorial" << endl;
         cout << "0 - Terminar a execução" << endl;
 
         cout << "\n>>>>>>>>>>>>>>>>>>>>>>>>>>" << endl;
@@ -63,9 +64,10 @@ int main()
             cin >> number;
             if (permutation.getFactorial(number))
             {
-                 cout << "O Fatorial é: " << permutation.getFactorial(number) << endl;
+                cout << "O Fatorial é: " << permutation.getFactorial(number) << endl;
             }
-            else cout << "Número excede o limite da variável primitiva 'long long' " << endl;
+            else
+                cout << "Número excede o limite da variável primitiva 'long long' " << endl;
             break;
         case 4:
         {
@@ -86,6 +88,17 @@ int main()
             cout << "O número de anagramas que essa palavra possuí " << anagram.getResult() << endl;
         }
         break;
+        case 6:
+        {
+            Divisor divisor;
+            int div, dev;
+            cout << "Digite o divisor: ";
+            cin >> div;
+            cout << "\nDigite o dividendo: ";
+            cin >> dev;
+            divisor.setValues(div, dev);
+            cout << "\nO resultado da divisão: " << divisor.simplifiedMethod(divisor.getDivisor(), divisor.getDividend()) << endl;
+        }break;
         case 0:
             cout << "Obrigado por utilizar " << endl;
             break;

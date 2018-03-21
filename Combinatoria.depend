@@ -39,7 +39,7 @@
 	<algorithm>
 	<Permutation.h>
 
-1521644470 source:c:\users\usuario\desktop\combinatoria\main.cpp
+1521646000 source:c:\users\usuario\desktop\combinatoria\main.cpp
 	<iostream>
 	<Permutation.h>
 	<Repetition.h>
@@ -81,7 +81,7 @@
 1521642085 source:c:\users\usuario\desktop\combinatoria\src\repetition.cpp
 	"Repetition.h"
 
-1521565810 source:c:\users\usuario\desktop\combinatoria\src\divisor.cpp
+1521642085 source:c:\users\usuario\desktop\combinatoria\src\divisor.cpp
 	"Divisor.h"
 
 1521642085 c:\users\usuario\desktop\combinatoria\include\divisor.h
