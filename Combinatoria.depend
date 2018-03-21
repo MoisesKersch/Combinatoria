@@ -39,7 +39,7 @@
 	<algorithm>
 	<Permutation.h>
 
-1521568056 source:c:\users\usuario\desktop\combinatoria\main.cpp
+1521644470 source:c:\users\usuario\desktop\combinatoria\main.cpp
 	<iostream>
 	<Permutation.h>
 	<Repetition.h>
@@ -51,40 +51,40 @@
 	<clocale>
 	<conio.h>
 
-1521567421 c:\users\usuario\desktop\combinatoria\include\permutation.h
+1521642085 c:\users\usuario\desktop\combinatoria\include\permutation.h
 	<iostream>
 
-1521564558 c:\users\usuario\desktop\combinatoria\include\repetition.h
+1521642444 c:\users\usuario\desktop\combinatoria\include\repetition.h
 	<Permutation.h>
 	<vector>
 	<sstream>
 
-1521564558 c:\users\usuario\desktop\combinatoria\include\anagram.h
+1521642085 c:\users\usuario\desktop\combinatoria\include\anagram.h
 	<vector>
 	<iostream>
 	<algorithm>
 	<Permutation.h>
 
-1521564558 source:c:\users\usuario\desktop\combinatoria\src\anagram.cpp
+1521642085 source:c:\users\usuario\desktop\combinatoria\src\anagram.cpp
 	"Anagram.h"
 
-1521566299 source:c:\users\usuario\desktop\combinatoria\src\combination.cpp
+1521642085 source:c:\users\usuario\desktop\combinatoria\src\combination.cpp
 	"Combination.h"
 
-1521566315 c:\users\usuario\desktop\combinatoria\include\combination.h
+1521642085 c:\users\usuario\desktop\combinatoria\include\combination.h
 	<iostream>
 	<Permutation.h>
 
-1521567437 source:c:\users\usuario\desktop\combinatoria\src\permutation.cpp
+1521642085 source:c:\users\usuario\desktop\combinatoria\src\permutation.cpp
 	"Permutation.h"
 
-1521564558 source:c:\users\usuario\desktop\combinatoria\src\repetition.cpp
+1521642085 source:c:\users\usuario\desktop\combinatoria\src\repetition.cpp
 	"Repetition.h"
 
 1521565810 source:c:\users\usuario\desktop\combinatoria\src\divisor.cpp
 	"Divisor.h"
 
-1521565808 c:\users\usuario\desktop\combinatoria\include\divisor.h
+1521642085 c:\users\usuario\desktop\combinatoria\include\divisor.h
 	<Permutation.h>
 	<windows.h>
 

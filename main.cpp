@@ -17,10 +17,10 @@ int main()
 
     setenv("LANG","en_US.utf8",1);
     setlocale(LC_ALL,"");
-    int value;
-    string input;
-    int op;
-    do
+    int number;
+    string word;
+    int op = 1;
+    while (op)
     {
         cout << ">>>>>>>>>>>>>>>>>>>>>>>>>>>" << endl;
 
@@ -30,7 +30,7 @@ int main()
         cout << "3 - Permutação simples" << endl;
         cout << "4 - Permutação com repetição" << endl;
         cout << "5 - Anagrama" << endl;
-        cout << "6 - Terminar a execução" << endl;
+        cout << "0 - Terminar a execução" << endl;
 
         cout << "\n>>>>>>>>>>>>>>>>>>>>>>>>>>" << endl;
         cout << "Opção > ";
@@ -60,31 +60,46 @@ int main()
             break;
         case 3:
             cout << "Digite um valor ";
-            cin >> value;
-            cout << "O Fatorial é: " << permutation.getFactorial(value) << endl;
+            cin >> number;
+            if (permutation.getFactorial(number))
+            {
+                 cout << "O Fatorial é: " << permutation.getFactorial(number) << endl;
+            }
+            else cout << "Número excede o limite da variável primitiva 'long long' " << endl;
             break;
         case 4:
-            cout << "Informe o valor de P " << endl;
-            cin >> value;
-            cout << "Informe o valor dos elementos repetidos " << endl;
-            cin >> input;
-            Repetition repetition(value);
-            repetition.setRepetitions(input);
-            cout << "Resultado: " << repetition.getRepetition() << endl;
-            break;
+        {
+            cout << "Informe o valor de P: ";
+            cin >> number;
+            Repetition repetition(number);
+            cout << "\nInforme o valor dos elementos repetidos separados por vírgula: ";
+            cin >> word;
+            repetition.setRepetitions(word);
+            cout << "P(" << number << ") (" << word <<") = " << repetition.getRepetition() << endl;
+        }
+        break;
         case 5:
-            break;
+        {
+            cout << "Digite uma palavra: ";
+            cin >> word;
+            Anagram anagram(word);
+            cout << "O número de anagramas que essa palavra possuí " << anagram.getResult() << endl;
+        }
+        break;
         case 0:
-
+            cout << "Obrigado por utilizar " << endl;
             break;
         default:
-            cout << "Entrada Inválida!" << endl;
+            cout << "Entrada inválida!" << endl;
         }
-        cout << "Aperte qualquer tecla para continuar...";
-        getch();
-        cls;
+        if (op != 0)
+        {
+            cout << "Aperte qualquer tecla para continuar...";
+            getch();
+            cls;
+        }
+
     }
-    while (op != 0);
 }
 
 
